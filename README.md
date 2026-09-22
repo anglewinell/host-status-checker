@@ -18,5 +18,7 @@ nitroflare.com        DOWN  timeout
 ## How it works
 For each domain it does an HTTPS `HEAD` (falls back to `GET`) with a short timeout and reports the status code + round-trip time. No third-party deps — standard library only.
 
+An example `hosts.txt` is included — copy it and edit the list.
+
 ## License
 MIT
